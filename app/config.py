@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     database_url:str=''  # Render PostgreSQL External Database URL
     bedrock_embed_model:str='amazon.titan-embed-text-v2:0'
     bedrock_chat_model:str='amazon.nova-lite-v1:0'
+    memory_turns:int=10
     embed_dim:int=1024
     max_upload_bytes:int=10485760
     pinecone_api_key:str=''
